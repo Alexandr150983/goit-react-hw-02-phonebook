@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Form } from './ContactForm.styled';
-import { Label } from './ContactForm.styled';
-import { Button } from './ContactForm.styled';
+import { Form, Label, Button } from './ContactForm.styled';
 class ContactForm extends Component {
   state = {
     name: '',
